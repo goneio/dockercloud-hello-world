@@ -2,6 +2,7 @@
 <head>
 	<title>Hello world!</title>
 	<link href='//fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+	<meta http-equiv="refresh" content="5">
 	<style>
 	body {
 		background-color: white;
