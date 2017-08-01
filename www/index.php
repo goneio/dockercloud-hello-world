@@ -1,4 +1,5 @@
 <?php
+mt_srand($_ENV["HOSTNAME"]);
 $red = mt_rand( 0, 255 );
 $green = mt_rand( 0, 255 );
 $blue = mt_rand( 0, 255 );
