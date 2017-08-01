@@ -1,5 +1,7 @@
-helloworld:
-  build: .
-  image: gone/hello-world
-  ports:
-    - "80:80"
+version: "2"
+services: 
+  helloworld:
+    build: .
+    image: gone/hello-world
+    ports:
+      - "80:80"
