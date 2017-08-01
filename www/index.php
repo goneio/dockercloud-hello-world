@@ -1,7 +1,7 @@
 <?php
-$red = mt_rand( 0, 255 )
-$green = mt_rand( 0, 255 )
-$blue = mt_rand( 0, 255 )
+$red = mt_rand( 0, 255 );
+$green = mt_rand( 0, 255 );
+$blue = mt_rand( 0, 255 );
 $background = "#".str_pad( dechex( $red ), 2, '0', STR_PAD_LEFT).str_pad( dechex( $green ), 2, '0', STR_PAD_LEFT).str_pad( dechex( $blue ), 2, '0', STR_PAD_LEFT);
 $text = $red + $green + $blue > (128*3) ? 'black' : 'white';
 ?>
