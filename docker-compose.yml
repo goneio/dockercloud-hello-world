@@ -1,4 +1,5 @@
 helloworld:
   build: .
+  image: gone/hello-world
   ports:
     - "80:80"
