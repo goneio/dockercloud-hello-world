@@ -1,3 +1,14 @@
+<?php
+function random_color_part() {
+    return str_pad( dechex( mt_rand( 0, 255 ) ), 2, '0', STR_PAD_LEFT);
+}
+
+function random_color() {
+    return random_color_part() . random_color_part() . random_color_part();
+}
+
+
+?>
 <html>
 <head>
 	<title>Hello world!</title>
@@ -5,7 +16,7 @@
 	<meta http-equiv="refresh" content="5">
 	<style>
 	body {
-		background-color: white;
+		background-color: #<?=random_color();?>;
 		text-align: center;
 		padding: 50px;
 		font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
